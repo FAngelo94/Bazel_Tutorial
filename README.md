@@ -1,6 +1,10 @@
 # Bazel Example
 
 In this example we step it up and showcase how to integrate multiple ```cc_library``` targets from different packages.
+ciao
+
+asdasa\
+asdas
 
  In Bazel, subdirectories containing BUILD files are known as packages. The new property ```visibility``` will tell Bazel which package(s) can reference this target, in this case the ```//main``` package can use ```hello-time``` library. 
 
